@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="model.css" />
+    <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador de Texto</title>
+  </head>
+  <body class="body-container">
+
+    <header class="header">
+      <a href="#">
+        <img src="aluralogo.png" alt="log_alura" />
+      </a>
+    </header>
+
+    <main class="main-container">
+      <label for="input-text" class="textarea-label">Digite seu texto</label>
+      <textarea
+        id="input-text"
+        class="text-input"
+        placeholder="Digite seu texto"
+        autofocus
+      ></textarea>
+      <div>
+        <div class="info">
+          <p>Não são permitidos caracteres especiais.</p>
+          <label for="animatedText">Ativar animação</label>
+          <input
+            type="checkbox"
+            id="animatedText"
+            title="Texto Animado"
+          />
+        </div>
+
+        <div class="button-container">
+          <button id="encrypt-button">Criptografar</button>
+          <button id="decrypt-button">Descriptografar</button>
+        </div>
+      </div>
+    </main>
+
+    <aside id="sidebar" class="sidebar-container">
+      <img
+        src="menino.png"
+        alt="boysearch"
+      />
+      <h2>Nenhuma mensagem encontrada</h2>
+      <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+    </aside>
+
+    <footer>
+      <p>Challenge ONE + AluraLatan - Decodificador de Texto</p>
+
+      GitHub  
+
+      <a href="https://github.com/matheusluis01">
+        <img src="git logo.png"
+        width="17px"
+        height="17px"
+         alt="log_git">
+      </a>
+    </footer>
+
+    <div id="dialog" class="modal"></div>
+
+  </body>
+</html>
